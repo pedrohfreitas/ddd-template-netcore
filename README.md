@@ -1,0 +1,2 @@
+# dddtemplatenetcore
+Project Template DDD 
