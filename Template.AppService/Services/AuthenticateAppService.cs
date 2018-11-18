@@ -10,7 +10,6 @@ using Template.CrossCutting.Util;
 using System.Security.Cryptography;
 using Template.API.Commands.Authenticate;
 using Template.CrossCutting;
-using Unean.Core.Notifications.Notify.Models;
 using Newtonsoft.Json.Linq;
 
 namespace Template.AppService.Services
