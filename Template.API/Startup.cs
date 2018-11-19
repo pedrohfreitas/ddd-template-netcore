@@ -110,8 +110,8 @@ namespace Template.API
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "Template API - Mini Curso", Version = "v1" });
-                var filePath = Path.Combine(PlatformServices.Default.Application.ApplicationBasePath, "Swagger.xml");
-                c.IncludeXmlComments(filePath);
+                // var filePath = Path.Combine(PlatformServices.Default.Application.ApplicationBasePath, "Swagger.xml");
+                // c.IncludeXmlComments(filePath);
             });
 
             ConnectionStrings.TemplateConnection = Configuration.GetConnectionString("TemplateConnection");
